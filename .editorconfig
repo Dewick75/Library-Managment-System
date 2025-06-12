@@ -1,0 +1,4 @@
+﻿[*.cs]
+
+# IDE0061: Use block body for local function
+csharp_style_expression_bodied_local_functions = true
