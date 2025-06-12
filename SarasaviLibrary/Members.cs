@@ -22,7 +22,7 @@ namespace SarasaviLibrary
             InitializeComponent();
         }
 
-        SqlConnection connection = new SqlConnection(@"Data Source=DESKTOP-133\SQLEXPRESS;Initial Catalog=C153091DB;Integrated Security=True;");
+        SqlConnection connection = new SqlConnection(@"Data Source=DESKTOP-133\SQLEXPRESS;Initial Catalog=DatabaseLibrary;Integrated Security=True;");
 
         private void button1_Click(object sender, EventArgs e)
         {

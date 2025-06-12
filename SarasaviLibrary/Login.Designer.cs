@@ -39,6 +39,7 @@
             this.Username = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.AdminRegister = new System.Windows.Forms.Button();
             this.panel2.SuspendLayout();
             this.panel4.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -48,6 +49,7 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.MintCream;
+            this.panel2.Controls.Add(this.AdminRegister);
             this.panel2.Controls.Add(this.label3);
             this.panel2.Controls.Add(this.label1);
             this.panel2.Controls.Add(this.button1);
@@ -162,6 +164,16 @@
             this.pictureBox1.TabIndex = 9;
             this.pictureBox1.TabStop = false;
             // 
+            // AdminRegister
+            // 
+            this.AdminRegister.Location = new System.Drawing.Point(30, 569);
+            this.AdminRegister.Name = "AdminRegister";
+            this.AdminRegister.Size = new System.Drawing.Size(149, 32);
+            this.AdminRegister.TabIndex = 10;
+            this.AdminRegister.Text = "Admin Register";
+            this.AdminRegister.UseVisualStyleBackColor = true;
+            this.AdminRegister.Click += new System.EventHandler(this.AdminRegister_Click);
+            // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -195,5 +207,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Button AdminRegister;
     }
 }

@@ -14,7 +14,7 @@ namespace SarasaviLibrary
 {
     public partial class BookAdding : Form
     {
-        private SqlConnection connection = new SqlConnection(@"Data Source=DESKTOP-133\SQLEXPRESS;Initial Catalog=C153091DB;Integrated Security=True;");
+        private SqlConnection connection = new SqlConnection(@"Data Source=DESKTOP-133\SQLEXPRESS;Initial Catalog=DatabaseLibrary;Integrated Security=True;");
 
         public BookAdding()
         {
